@@ -75,6 +75,65 @@ a
     width: 600px;
 }
 
+.info
+{
+    background-color: #E5E7EB;
+    padding: 16px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 52px;
+    flex-wrap: wrap;
+
+    margin-bottom: 100px;
+    
+}
+
+.title
+{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+
+    margin: 20px;
+    padding: 16px;
+
+}
+
+.picture
+{
+    max-width: 200px;
+}
+
+.img-ducks
+{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 20px;
+    border: 5px solid #3882F6;
+    margin-bottom: 5px;
+}
+
+.text
+{
+    color: #1F2937;
+    text-align: center;
+}
+
+
+
+
+
 
 
 
