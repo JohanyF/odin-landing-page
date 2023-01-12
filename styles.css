@@ -29,12 +29,14 @@ a
 {
     display: flex;
     height: 72px;
-    justify-content: space-between;
-    align-items: flex-start;
+    justify-content: space-around;
     font-size: 24px;
     color: #F9FAF8;
+
+    padding: 16px;
+    gap: 16px;
     
-    padding: 16px 256px;
+    
 }
 
 .header, .hero
@@ -45,11 +47,28 @@ a
 .hero
 {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    padding: 16px 256px;
-    
 
+}
+
+.hero-block
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 100px;
+    margin-bottom: 100px;
+}
+
+.intro
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    gap: 10px;
 }
 
 .hero-main
@@ -71,8 +90,8 @@ a
 
 .hero-img
 {
-    height: 400px;
-    width: 600px;
+    max-height: 400px;
+    width: 100%;
 }
 
 .info
@@ -169,6 +188,85 @@ a
     align-self: flex-end;
 
     font-size: 20px;
+}
+
+.sign
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 100px 150px;
+}
+
+.sign-block
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    border-radius: 20px;
+
+    
+    padding: 50px 100px;
+
+    gap: 100px
+}
+
+.text-block
+{
+    /*margin-right: 200px;*/
+    display: flex;
+    flex-direction: column;
+}
+
+.sign-head
+{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.sign-head, .sign-text
+{
+    color: #F9FAF8;
+}
+
+.button-header
+{
+    background-color: #3882F6;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 20px;
+    color: #F9FAF8;
+    font-size: 16px;
+
+    margin-top: 10px;
+}
+
+.button-block
+{
+    display: flex;
+}
+
+.button-sign
+{
+    /*margin-left: 200px;*/
+    background-color: #3882F6;
+    border: solid 2px;
+    border-radius: 5px;
+    padding: 5px 20px;
+    color: #F9FAF8;
+    font-size: 16px;
+}
+
+.footer
+{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #9fa3ad;
+    padding: 20px 40px;
 }
 
 
